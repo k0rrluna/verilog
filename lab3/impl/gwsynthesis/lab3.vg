@@ -1,0 +1,125 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.9.02"
+//Sat Apr 13 05:09:20 2024
+
+//Source file index table:
+//file0 "\C:/cygwin64/home/koray/verilog/lab3/src/Adder3Bit.v"
+`timescale 100 ps/100 ps
+module Adder3Bit (
+  num1,
+  num2,
+  Carry,
+  sum
+)
+;
+input [2:0] num1;
+input [2:0] num2;
+output [2:0] Carry;
+output [2:0] sum;
+wire [2:0] num1_d;
+wire [2:0] num2_d;
+wire [2:0] sum_d;
+wire [2:0] Carry_d;
+wire VCC;
+wire GND;
+  IBUF num1_0_ibuf (
+    .O(num1_d[0]),
+    .I(num1[0]) 
+);
+  IBUF num1_1_ibuf (
+    .O(num1_d[1]),
+    .I(num1[1]) 
+);
+  IBUF num1_2_ibuf (
+    .O(num1_d[2]),
+    .I(num1[2]) 
+);
+  IBUF num2_0_ibuf (
+    .O(num2_d[0]),
+    .I(num2[0]) 
+);
+  IBUF num2_1_ibuf (
+    .O(num2_d[1]),
+    .I(num2[1]) 
+);
+  IBUF num2_2_ibuf (
+    .O(num2_d[2]),
+    .I(num2[2]) 
+);
+  OBUF Carry_0_obuf (
+    .O(Carry[0]),
+    .I(Carry_d[0]) 
+);
+  OBUF Carry_1_obuf (
+    .O(Carry[1]),
+    .I(Carry_d[1]) 
+);
+  OBUF Carry_2_obuf (
+    .O(Carry[2]),
+    .I(Carry_d[2]) 
+);
+  OBUF sum_0_obuf (
+    .O(sum[0]),
+    .I(sum_d[0]) 
+);
+  OBUF sum_1_obuf (
+    .O(sum[1]),
+    .I(sum_d[1]) 
+);
+  OBUF sum_2_obuf (
+    .O(sum[2]),
+    .I(sum_d[2]) 
+);
+  LUT2 sum_d_0_s (
+    .F(sum_d[0]),
+    .I0(num1_d[0]),
+    .I1(num2_d[0]) 
+);
+defparam sum_d_0_s.INIT=4'h6;
+  LUT2 Carry_d_0_s (
+    .F(Carry_d[0]),
+    .I0(num1_d[0]),
+    .I1(num2_d[0]) 
+);
+defparam Carry_d_0_s.INIT=4'h8;
+  LUT4 Carry_d_1_s (
+    .F(Carry_d[1]),
+    .I0(num1_d[1]),
+    .I1(num2_d[1]),
+    .I2(num1_d[0]),
+    .I3(num2_d[0]) 
+);
+defparam Carry_d_1_s.INIT=16'hE888;
+  LUT3 sum_d_2_s (
+    .F(sum_d[2]),
+    .I0(Carry_d[1]),
+    .I1(num1_d[2]),
+    .I2(num2_d[2]) 
+);
+defparam sum_d_2_s.INIT=8'h96;
+  LUT3 Carry_d_2_s (
+    .F(Carry_d[2]),
+    .I0(Carry_d[1]),
+    .I1(num1_d[2]),
+    .I2(num2_d[2]) 
+);
+defparam Carry_d_2_s.INIT=8'hE8;
+  LUT4 sum_d_1_s0 (
+    .F(sum_d[1]),
+    .I0(num1_d[0]),
+    .I1(num2_d[0]),
+    .I2(num1_d[1]),
+    .I3(num2_d[1]) 
+);
+defparam sum_d_1_s0.INIT=16'h8778;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* Adder3Bit */

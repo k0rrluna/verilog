@@ -1,0 +1,76 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.9.02"
+//Thu Apr 11 07:46:56 2024
+
+//Source file index table:
+//file0 "\C:/cygwin64/home/koray/verilog/lab2/src/BitM.v"
+`timescale 100 ps/100 ps
+module BitM (
+  A,
+  B,
+  AlB,
+  AeB,
+  AgB
+)
+;
+input A;
+input B;
+output AlB;
+output AeB;
+output AgB;
+wire A_d;
+wire B_d;
+wire AlB_d;
+wire AgB_d;
+wire AeB_d;
+wire VCC;
+wire GND;
+  IBUF A_ibuf (
+    .O(A_d),
+    .I(A) 
+);
+  IBUF B_ibuf (
+    .O(B_d),
+    .I(B) 
+);
+  OBUF AlB_obuf (
+    .O(AlB),
+    .I(AlB_d) 
+);
+  OBUF AeB_obuf (
+    .O(AeB),
+    .I(AeB_d) 
+);
+  OBUF AgB_obuf (
+    .O(AgB),
+    .I(AgB_d) 
+);
+  LUT2 AlB_d_s (
+    .F(AlB_d),
+    .I0(A_d),
+    .I1(B_d) 
+);
+defparam AlB_d_s.INIT=4'h4;
+  LUT2 AgB_d_s (
+    .F(AgB_d),
+    .I0(B_d),
+    .I1(A_d) 
+);
+defparam AgB_d_s.INIT=4'h4;
+  LUT2 AeB_d_s (
+    .F(AeB_d),
+    .I0(A_d),
+    .I1(B_d) 
+);
+defparam AeB_d_s.INIT=4'h9;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* BitM */

@@ -1,0 +1,70 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_000002114102cad0 .scope module, "BitM_tb" "BitM_tb" 2 1;
+ .timescale 0 0;
+v0000021140f146e0_0 .var "r1", 0 0;
+v0000021140f14780_0 .var "r2", 0 0;
+v0000021140f14820_0 .net "w1", 0 0, L_0000021140ee32f0;  1 drivers
+v0000021140f148c0_0 .net "w2", 0 0, L_0000021140f14f60;  1 drivers
+v0000021140f14960_0 .net "w3", 0 0, L_0000021140f14de0;  1 drivers
+S_000002114102cc60 .scope module, "uut" "BitM" 2 6, 3 1 0, S_000002114102cad0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /OUTPUT 1 "AlB";
+    .port_info 3 /OUTPUT 1 "AeB";
+    .port_info 4 /OUTPUT 1 "AgB";
+L_000002114102af60 .functor NOT 1, v0000021140f146e0_0, C4<0>, C4<0>, C4<0>;
+L_0000021140ee3190 .functor NOT 1, v0000021140f14780_0, C4<0>, C4<0>, C4<0>;
+L_0000021140ee32f0 .functor AND 1, L_000002114102af60, v0000021140f14780_0, C4<1>, C4<1>;
+L_0000021140f14de0 .functor AND 1, L_0000021140ee3190, v0000021140f146e0_0, C4<1>, C4<1>;
+L_0000021140f14f60 .functor NOR 1, L_0000021140ee32f0, L_0000021140f14de0, C4<0>, C4<0>;
+v0000021141028fc0_0 .net "A", 0 0, v0000021140f146e0_0;  1 drivers
+v0000021140ee2ee0_0 .net "AeB", 0 0, L_0000021140f14f60;  alias, 1 drivers
+v000002114102aec0_0 .net "AgB", 0 0, L_0000021140f14de0;  alias, 1 drivers
+v000002114102cdf0_0 .net "AlB", 0 0, L_0000021140ee32f0;  alias, 1 drivers
+v000002114102ce90_0 .net "An", 0 0, L_000002114102af60;  1 drivers
+v0000021140f145a0_0 .net "B", 0 0, v0000021140f14780_0;  1 drivers
+v0000021140f14640_0 .net "Bn", 0 0, L_0000021140ee3190;  1 drivers
+    .scope S_000002114102cad0;
+T_0 ;
+    %vpi_call 2 15 "$dumpfile", "bdmp.vcd" {0 0 0};
+    %vpi_call 2 16 "$dumpvars" {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000021140f146e0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000021140f14780_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000021140f146e0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000021140f14780_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000021140f146e0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0000021140f14780_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000021140f146e0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0000021140f14780_0, 0, 1;
+    %delay 10, 0;
+    %vpi_call 2 21 "$display", v0000021140f14820_0 {0 0 0};
+    %vpi_call 2 22 "$display", v0000021140f148c0_0 {0 0 0};
+    %vpi_call 2 23 "$display", v0000021140f14960_0 {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "BitM_tb.v";
+    "BitM.v";

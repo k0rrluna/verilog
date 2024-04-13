@@ -1,0 +1,23 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\cygwin64\home\koray\verilog\lab3\src\Adder3Bit.v'
+Analyzing Verilog file 'C:\cygwin64\home\koray\verilog\lab3\src\tbAdder3Bit.v'
+ERROR (EX3615) : '.name implicit port connection' is not allowed in this dialect, use SystemVerilog mode instead("C:\cygwin64\home\koray\verilog\lab3\src\tbAdder3Bit.v":7)
+ERROR (EX3863) : Syntax error near '['("C:\cygwin64\home\koray\verilog\lab3\src\tbAdder3Bit.v":7)
+ERROR (EX3994) : Cannot assign to memory 'r1' directly("C:\cygwin64\home\koray\verilog\lab3\src\tbAdder3Bit.v":16)
+ERROR (EX3651) : Cannot assign a packed type to an unpacked type("C:\cygwin64\home\koray\verilog\lab3\src\tbAdder3Bit.v":16)
+ERROR (EX3356) : Unpacked value/target cannot be used in an assignment("C:\cygwin64\home\koray\verilog\lab3\src\tbAdder3Bit.v":16)
+ERROR (EX3994) : Cannot assign to memory 'r2' directly("C:\cygwin64\home\koray\verilog\lab3\src\tbAdder3Bit.v":16)
+ERROR (EX3651) : Cannot assign a packed type to an unpacked type("C:\cygwin64\home\koray\verilog\lab3\src\tbAdder3Bit.v":16)
+ERROR (EX3994) : Cannot assign to memory 'r1' directly("C:\cygwin64\home\koray\verilog\lab3\src\tbAdder3Bit.v":17)
+ERROR (EX3651) : Cannot assign a packed type to an unpacked type("C:\cygwin64\home\koray\verilog\lab3\src\tbAdder3Bit.v":17)
+ERROR (EX3356) : Unpacked value/target cannot be used in an assignment("C:\cygwin64\home\koray\verilog\lab3\src\tbAdder3Bit.v":17)
+ERROR (EX3994) : Cannot assign to memory 'r2' directly("C:\cygwin64\home\koray\verilog\lab3\src\tbAdder3Bit.v":17)
+ERROR (EX3651) : Cannot assign a packed type to an unpacked type("C:\cygwin64\home\koray\verilog\lab3\src\tbAdder3Bit.v":17)
+ERROR (EX3994) : Cannot assign to memory 'r1' directly("C:\cygwin64\home\koray\verilog\lab3\src\tbAdder3Bit.v":18)
+ERROR (EX3651) : Cannot assign a packed type to an unpacked type("C:\cygwin64\home\koray\verilog\lab3\src\tbAdder3Bit.v":18)
+ERROR (EX3356) : Unpacked value/target cannot be used in an assignment("C:\cygwin64\home\koray\verilog\lab3\src\tbAdder3Bit.v":18)
+ERROR (EX3994) : Cannot assign to memory 'r2' directly("C:\cygwin64\home\koray\verilog\lab3\src\tbAdder3Bit.v":18)
+ERROR (EX3651) : Cannot assign a packed type to an unpacked type("C:\cygwin64\home\koray\verilog\lab3\src\tbAdder3Bit.v":18)
+Sorry, too many errors..
+GowinSynthesis finish
