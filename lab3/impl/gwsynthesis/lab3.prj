@@ -4,8 +4,9 @@
     <Version>beta</Version>
     <Device id="GW2A-18C" package="PBGA256" speed="8" partNumber="GW2A-LV18PG256C8/I7"/>
     <FileList>
-        <File path="C:\cygwin64\home\koray\verilog\lab3\src\Adder3Bit.v" type="verilog"/>
-        <File path="C:\cygwin64\home\koray\verilog\lab3\src\tbAdder3Bit.v" type="verilog"/>
+        <File path="C:\cygwin64\home\koray\verilog\lab3\src\fullAdder.v" type="verilog"/>
+        <File path="C:\cygwin64\home\koray\verilog\lab3\src\halfAdder.v" type="verilog"/>
+        <File path="C:\cygwin64\home\koray\verilog\lab3\src\mult2bit.v" type="verilog"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>

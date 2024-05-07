@@ -2,11 +2,15 @@
  "Device" : "GW2A-18C",
  "Files" : [
   {
-   "Path" : "C:/cygwin64/home/koray/verilog/lab3/src/Adder3Bit.v",
+   "Path" : "C:/cygwin64/home/koray/verilog/lab3/src/fullAdder.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/cygwin64/home/koray/verilog/lab3/src/tbAdder3Bit.v",
+   "Path" : "C:/cygwin64/home/koray/verilog/lab3/src/halfAdder.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/cygwin64/home/koray/verilog/lab3/src/mult2bit.v",
    "Type" : "verilog"
   }
  ],
