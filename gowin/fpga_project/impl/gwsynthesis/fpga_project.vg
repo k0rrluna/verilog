@@ -1,0 +1,50 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.9.03 Education (64-bit)"
+//Fri Jul  5 01:47:50 2024
+
+//Source file index table:
+//file0 "\//wsl.localhost/Debian/home/koray/code/verilog/gowin/fpga_project/src/bit3adder.v"
+//file1 "\//wsl.localhost/Debian/home/koray/code/verilog/gowin/fpga_project/src/fulladder.v"
+//file2 "\//wsl.localhost/Debian/home/koray/code/verilog/gowin/fpga_project/src/halfadder.v"
+//file3 "\//wsl.localhost/Debian/home/koray/code/verilog/gowin/fpga_project/src/ledTest.v"
+`pragma protect begin_protected
+`pragma protect version="2.3"
+`pragma protect author="default"
+`pragma protect author_info="default"
+`pragma protect encrypt_agent="GOWIN"
+`pragma protect encrypt_agent_info="GOWIN Encrypt Version 2.3"
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=256)
+`pragma protect key_keyowner="GOWIN",key_keyname="GWK2023-09",key_method="rsa"
+`pragma protect key_block
+SlY0kna1VOfFqCnIAUnvCFZyOmYy5nNsOHaosnUdN4NPMfg/3mc8m5NMYcB5aRVE/L24Uu9c2XWA
+NSW10+EV19kawM4RxGHJIvtDs0SiB/Vcq1F8BgI/KOHKz/FTLafKTG1XgrZBirSoolIV7y3DkGc4
+fFPvdTC+u+kvRVlxdhtThZCgSsWsWToZ6lmp5DLA9hnMXuM49zTU4OEhqfMJ6WkK8RTWJ6daX+tg
+Y1XX+clp3w69r36oZamUSEZWZ6CdYcrWRGTDo90LNa2xuBM85dkQDoblHE8Ap1nKmlhZcMIX/YJh
+0tKW+VsT2QtAPJ0UlvbE2odrDNmWQoF4dvOk/w==
+
+`pragma protect encoding=(enctype="base64", line_length=76, bytes=1008)
+`pragma protect data_keyowner="default-ip-vendor"
+`pragma protect data_keyname="default-ip-key"
+`pragma protect data_method="aes128-cfb"
+`pragma protect data_block
+jkSx6jQnyZ9dF/09E4NL2yuVq5UuB/QQ94fGSjKbJenbe1nQSl+5yB+i9SSfwRtogKNhiSPBoWBJ
+IbPwkVP80LgZ9rvG0b7H6VBkCGowAB9+eHtTQ3oklxuQ90y2SYSTtWW3ro0fdkBSmjzpnBwxhoyV
+Y5KagttXxWtTGmVZ2Jp1IINdCohLcp/FaO8sKKmm/XrAvKTwuUG1YRRNBLPQNnXxgYjOo6V2JZjg
+KI0HxaH6/lco/ieB4vEOR45lxwoJxb2K3sb/gHNytOfl7td2OH3db6sCtP30Ku47XLVboGTe7v5J
+RutLx6qXJZyxziq+Aq15o9oRqFWjyIMTkp2kPegM3LoJOxkLMh9HK5HSVSezqXgB5tP28CYEMKBo
+0z43g9baQd7DVNvinmA2XJnYZptSvLUzGNl+UoKJOKRx99dQPjYgfADnAd+gXcoTJwsGyIwHRbbR
+doKYkV2vEOoP7ghm0zhHq1entJM9PWc6QpwoaM+MXlp+kua6FE2Q/XMucUBdrtBA5cCfDnCL19wg
+bqbrOZI/z3P8vVN2Wvn0Zk0dDJgFvZmsGcGtXxjwk3ZzaLtUs4fZnrzTbt49p9vab+WjV7ee2Nsx
+qDCFejQdHiMB7mYPlx2LGTsHyWMMf4jqva9449+Hv9mRvFnfqYeE5Tydck8IIGX4epuft0OHUzP2
+udMyVqg5Tu8510MLDHiBEVXkWNLP48kzGvziYnCaI3WZ/UNLStk7C8qBklyRJIjIQ9ub3xNsM3rV
+TMk+q7yll2HGMaMkQsd3hpc8yV+91mQehfk8tWVji/z2wOA1VtcELN66gzSbGWBkXuljVCKGDnIC
+in7uS0npQn/McH9QDs9jL8rD1fz/Bh31c7TGWuDYwAMSGYDqV+0jQFTnVCLoU/neInO8TKmpWKCx
+hinKAp+LeozSlBCduFNPvylCew/OR55n8ZvZu0fnJlno+8kPQzNGM9cIDHO6YJLpL9krXF2uEL2P
+WtaEGcs4pAZTw5h6eCm5b+oMUGmD8PMz6chO/SlcE4Hfd0oLBmV4uxVdeURFsNKpdkwLNXaI53y8
+G2P4YtoDDcDhfnA/oc7RQQcQcrvybOkDdak+JklUzURJirJ6OJv8AgNhUEtxqfdaV2mC4WZoQp9g
+4adUyXuABANWFelvj9N3rZJ910HDg5tIy0GfKSmess/3aWD1g92NVVZw0xaijaZghpUmTwK8Db7l
+8/AlcgBwYIo5vhFRWiD8ddRTC4L4VXgvswhsbPdkZD8OKdIos9DKrikQF4FbzqTlrq6uRBCMYmGW
+lXyKrsvDMaWe3WBOg3nGgQCt6UWBb5v7Nj/6FwYmUkIpltrnBCtP
+`pragma protect end_protected

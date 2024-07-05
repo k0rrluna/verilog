@@ -1,0 +1,29 @@
+{
+ "Device" : "GW2A-18C",
+ "Files" : [
+  {
+   "Path" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/fpga_project/src/bit3adder.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/fpga_project/src/fulladder.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/fpga_project/src/halfadder.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/fpga_project/src/ledTest.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/fpga_project/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

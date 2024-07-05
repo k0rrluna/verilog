@@ -1,0 +1,13 @@
+-d \\wsl.localhost\Debian\home\koray\code\verilog\gowin\fpga_project\impl\gwsynthesis\fpga_project.vg
+-p GW2A-18C-PBGA256-8
+-pn GW2A-LV18PG256C8/I7
+-cst \\wsl.localhost\Debian\home\koray\code\verilog\gowin\fpga_project\src\fpga_project.cst
+-cfg \\wsl.localhost\Debian\home\koray\code\verilog\gowin\fpga_project\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000
