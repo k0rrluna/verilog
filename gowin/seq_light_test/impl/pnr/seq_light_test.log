@@ -1,0 +1,29 @@
+Reading netlist file: "\\wsl.localhost\Debian\home\koray\code\verilog\gowin\seq_light_test\impl\gwsynthesis\seq_light_test.vg"
+Parsing netlist file "\\wsl.localhost\Debian\home\koray\code\verilog\gowin\seq_light_test\impl\gwsynthesis\seq_light_test.vg" completed
+Processing netlist completed
+Reading constraint file: "\\wsl.localhost\Debian\home\koray\code\verilog\gowin\seq_light_test\src\seq_light_test.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "\\wsl.localhost\Debian\home\koray\code\verilog\gowin\seq_light_test\impl\pnr\seq_light_test.power.html" completed
+Generate file "\\wsl.localhost\Debian\home\koray\code\verilog\gowin\seq_light_test\impl\pnr\seq_light_test.pin.html" completed
+Generate file "\\wsl.localhost\Debian\home\koray\code\verilog\gowin\seq_light_test\impl\pnr\seq_light_test.rpt.html" completed
+Generate file "\\wsl.localhost\Debian\home\koray\code\verilog\gowin\seq_light_test\impl\pnr\seq_light_test.rpt.txt" completed
+Generate file "\\wsl.localhost\Debian\home\koray\code\verilog\gowin\seq_light_test\impl\pnr\seq_light_test.tr.html" completed
+Sun Jul  7 15:45:27 2024
+

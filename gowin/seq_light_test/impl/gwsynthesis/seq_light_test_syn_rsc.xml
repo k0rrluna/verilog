@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="seqBlink" Register="40" Alu="31" Lut="23" T_Register="40(40)" T_Alu="31(31)" T_Lut="23(23)"/>

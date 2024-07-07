@@ -1,0 +1,98 @@
+$date
+	Sun Jul  7 02:46:47 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module seqBlinkTB $end
+$var wire 4 ! leds [3:0] $end
+$var reg 1 " clock $end
+$scope module uut $end
+$var wire 1 " clock $end
+$var reg 2 # count [1:0] $end
+$var reg 4 $ leds [3:0] $end
+$var reg 4 % start [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 %
+bx $
+b0 #
+0"
+bx !
+$end
+#5
+b1 !
+b1 $
+b1 #
+1"
+#10
+0"
+#15
+b10 !
+b10 $
+b10 #
+1"
+#20
+0"
+#25
+b100 !
+b100 $
+b11 #
+1"
+#30
+0"
+#35
+b1000 !
+b1000 $
+b0 #
+1"
+#40
+0"
+#45
+b1 !
+b1 $
+b1 #
+1"
+#50
+0"
+#55
+b10 !
+b10 $
+b10 #
+1"
+#60
+0"
+#65
+b100 !
+b100 $
+b11 #
+1"
+#70
+0"
+#75
+b1000 !
+b1000 $
+b0 #
+1"
+#80
+0"
+#85
+b1 !
+b1 $
+b1 #
+1"
+#90
+0"
+#95
+b10 !
+b10 $
+b10 #
+1"
+#100
+0"

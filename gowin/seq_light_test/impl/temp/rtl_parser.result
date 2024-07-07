@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/seq_light_test/src/seqBlink.v",
+  "InstLine" : 1,
+  "InstName" : "seqBlink",
+  "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/seq_light_test/src/seqBlink.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "seqBlink"
+ }
+]
