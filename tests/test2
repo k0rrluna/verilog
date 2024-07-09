@@ -1,0 +1,51 @@
+#! /usr/bin/vvp
+:ivl_version "11.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/system.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/va_math.vpi";
+S_0x55b1a99faed0 .scope module, "test2Tb" "test2Tb" 2 1;
+ .timescale 0 0;
+v0x55b1a9a0cbd0_0 .var "a", 3 0;
+v0x55b1a9a0cc90_0 .net "b", 6 0, L_0x55b1a9a1d1d0;  1 drivers
+S_0x55b1a99fb060 .scope module, "uut" "test2" 2 5, 3 1 0, S_0x55b1a99faed0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 4 "a";
+    .port_info 1 /OUTPUT 7 "b";
+L_0x7f3e40949018 .functor BUFT 1, C4<0000001>, C4<0>, C4<0>, C4<0>;
+v0x55b1a99c1cf0_0 .net/2s *"_ivl_0", 6 0, L_0x7f3e40949018;  1 drivers
+v0x55b1a9a0c440_0 .net *"_ivl_10", 6 0, L_0x55b1a9a1d090;  1 drivers
+L_0x7f3e409490f0 .functor BUFT 1, C4<0000010>, C4<0>, C4<0>, C4<0>;
+v0x55b1a9a0c520_0 .net/2s *"_ivl_12", 6 0, L_0x7f3e409490f0;  1 drivers
+v0x55b1a9a0c5e0_0 .net *"_ivl_2", 31 0, L_0x55b1a9a0cd90;  1 drivers
+L_0x7f3e40949060 .functor BUFT 1, C4<0000000000000000000000000000>, C4<0>, C4<0>, C4<0>;
+v0x55b1a9a0c6c0_0 .net *"_ivl_5", 27 0, L_0x7f3e40949060;  1 drivers
+L_0x7f3e409490a8 .functor BUFT 1, C4<00000000000000000000000000000001>, C4<0>, C4<0>, C4<0>;
+v0x55b1a9a0c7f0_0 .net/2u *"_ivl_6", 31 0, L_0x7f3e409490a8;  1 drivers
+v0x55b1a9a0c8d0_0 .net *"_ivl_8", 31 0, L_0x55b1a9a1cf20;  1 drivers
+v0x55b1a9a0c9b0_0 .net "a", 3 0, v0x55b1a9a0cbd0_0;  1 drivers
+v0x55b1a9a0ca90_0 .net "b", 6 0, L_0x55b1a9a1d1d0;  alias, 1 drivers
+L_0x55b1a9a0cd90 .concat [ 4 28 0 0], v0x55b1a9a0cbd0_0, L_0x7f3e40949060;
+L_0x55b1a9a1cf20 .arith/sum 32, L_0x55b1a9a0cd90, L_0x7f3e409490a8;
+L_0x55b1a9a1d090 .shift/l 7, L_0x7f3e40949018, L_0x55b1a9a1cf20;
+L_0x55b1a9a1d1d0 .arith/sub 7, L_0x55b1a9a1d090, L_0x7f3e409490f0;
+    .scope S_0x55b1a99faed0;
+T_0 ;
+    %vpi_call 2 9 "$dumpfile", "test2v.vcd" {0 0 0};
+    %vpi_call 2 10 "$dumpvars" {0 0 0};
+    %vpi_call 2 11 "$display", "Success!" {0 0 0};
+    %pushi/vec4 5, 0, 4;
+    %store/vec4 v0x55b1a9a0cbd0_0, 0, 4;
+    %delay 10, 0;
+    %vpi_call 2 13 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "test2Tb.v";
+    "test2.v";
