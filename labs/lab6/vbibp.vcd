@@ -1,5 +1,5 @@
 $date
-	Thu Jul 11 19:23:34 2024
+	Sat Jul 13 00:01:24 2024
 $end
 $version
 	Icarus Verilog
@@ -8,27 +8,19 @@ $timescale
 	1s
 $end
 $scope module bibpTB $end
-$var wire 4 ! v2 [3:0] $end
-$var wire 4 " v1 [3:0] $end
-$var wire 5 # sonuc [4:0] $end
-$var reg 11 $ buyruk [10:0] $end
+$var wire 5 ! sonuc [4:0] $end
+$var reg 11 " buyruk [10:0] $end
 $scope module uut $end
-$var wire 11 % buyruk [10:0] $end
-$var reg 5 & sonuc [4:0] $end
-$var reg 4 ' v1 [3:0] $end
-$var reg 4 ( v2 [3:0] $end
+$var wire 11 # buyruk [10:0] $end
+$var reg 5 $ sonuc [4:0] $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
 #0
 $dumpvars
-b100 (
-b101 '
-b100 &
-b101010100 %
-b101010100 $
-b100 #
-b101 "
+b100 $
+b101010100 #
+b101010100 "
 b100 !
 $end
 #10

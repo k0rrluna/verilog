@@ -13,18 +13,18 @@ module bibp #(parameter UZUNLUK = 8)(
 /*assign v1 = buyruk[UZUNLUK - 1 : UZUNLUK/2];
 assign v2 = buyruk[UZUNLUK/2  : 0];*/
 
-wire [(UZUNLUK/2) - 1:0] v1,v2;
+// wire [(UZUNLUK/2) - 1:0] v1,v2;
+
+// !!! LOCALPARAM IVERILOG DA PROBLEMLI OLDUGU ICIN KULLANILMIYOR !!!
 
 always@(*) begin
-    v1 = buyruk[UZUNLUK - 1 : UZUNLUK/2];
-    v2 = buyruk[(UZUNLUK/2) - 1 : 0];
     case(buyruk[UZUNLUK+2:UZUNLUK-1])
-        3'b000: sonuc = v1 + v2;
-        3'b001: sonuc = v1 - v2;
-        3'b010: sonuc = v1 & v2;
-        3'b011: sonuc = v1 | v2;
-        3'b100: sonuc = v1 ^ v2;
-        default: sonuc = v1 + v2;
+        3'b000: sonuc = buyruk[UZUNLUK - 1 : UZUNLUK/2] +  buyruk[(UZUNLUK/2) - 1 : 0];
+        3'b001: sonuc = buyruk[UZUNLUK - 1 : UZUNLUK/2] - buyruk[(UZUNLUK/2) - 1 : 0]; // SUBTRACTION ?????? CHECK!!!
+        3'b010: sonuc = buyruk[UZUNLUK - 1 : UZUNLUK/2] & buyruk[(UZUNLUK/2) - 1 : 0];
+        3'b011: sonuc = buyruk[UZUNLUK - 1 : UZUNLUK/2] | buyruk[(UZUNLUK/2) - 1 : 0];
+        3'b100: sonuc = buyruk[UZUNLUK - 1 : UZUNLUK/2] ^ buyruk[(UZUNLUK/2) - 1 : 0];
+        default: sonuc = buyruk[UZUNLUK - 1 : UZUNLUK/2] + buyruk[(UZUNLUK/2) - 1 : 0];
     endcase
 end
 
