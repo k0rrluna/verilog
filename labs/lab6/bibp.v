@@ -18,14 +18,18 @@ assign v2 = buyruk[UZUNLUK/2  : 0];*/
 // !!! LOCALPARAM IVERILOG DA PROBLEMLI OLDUGU ICIN KULLANILMIYOR !!!
 
 always@(*) begin
-    case(buyruk[UZUNLUK+2:UZUNLUK-1])
-        3'b000: sonuc = buyruk[UZUNLUK - 1 : UZUNLUK/2] +  buyruk[(UZUNLUK/2) - 1 : 0];
-        3'b001: sonuc = buyruk[UZUNLUK - 1 : UZUNLUK/2] - buyruk[(UZUNLUK/2) - 1 : 0]; // SUBTRACTION ?????? CHECK!!!
-        3'b010: sonuc = buyruk[UZUNLUK - 1 : UZUNLUK/2] & buyruk[(UZUNLUK/2) - 1 : 0];
-        3'b011: sonuc = buyruk[UZUNLUK - 1 : UZUNLUK/2] | buyruk[(UZUNLUK/2) - 1 : 0];
-        3'b100: sonuc = buyruk[UZUNLUK - 1 : UZUNLUK/2] ^ buyruk[(UZUNLUK/2) - 1 : 0];
-        default: sonuc = buyruk[UZUNLUK - 1 : UZUNLUK/2] + buyruk[(UZUNLUK/2) - 1 : 0];
+    $display("%d", buyruk[UZUNLUK - 1 : UZUNLUK/2]);
+    $display("%d", buyruk[(UZUNLUK/2) - 1 : 0]);
+    $display("%d", buyruk[UZUNLUK - 1 : UZUNLUK/2] - buyruk[(UZUNLUK/2) - 1 : 0]);
+    case(buyruk[UZUNLUK+2:UZUNLUK])
+        3'b000: sonuc = buyruk[(UZUNLUK - 1) : UZUNLUK/2] +  buyruk[(UZUNLUK/2) - 1 : 0];
+        3'b001: sonuc = buyruk[(UZUNLUK - 1) : UZUNLUK/2] - buyruk[(UZUNLUK/2) - 1 : 0]; // SUBTRACTION ?????? CHECK!!!
+        3'b010: sonuc = {1'b0, buyruk[UZUNLUK - 1 : UZUNLUK/2] & buyruk[(UZUNLUK/2) - 1 : 0]};
+        3'b011: sonuc = {1'b0, buyruk[UZUNLUK - 1 : UZUNLUK/2] | buyruk[(UZUNLUK/2) - 1 : 0]};
+        3'b100: sonuc = {1'b0, buyruk[UZUNLUK - 1 : UZUNLUK/2] ^ buyruk[(UZUNLUK/2) - 1 : 0]};
+        default: sonuc = -1;
     endcase
+    $display("%b", sonuc);
 end
 
 endmodule

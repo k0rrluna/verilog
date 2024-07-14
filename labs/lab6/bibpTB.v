@@ -10,7 +10,7 @@ initial begin
     $dumpfile("vbibp.vcd");
     $dumpvars;
 
-    buyruk = 11'b001_0101_0100; #10;
+    buyruk = 11'b111_0101_0100; #10;
     $finish;
 end
 endmodule
