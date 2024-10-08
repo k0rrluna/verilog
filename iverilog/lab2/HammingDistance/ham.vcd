@@ -1,0 +1,32 @@
+$date
+	Tue Oct  8 14:33:58 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module htb $end
+$var reg 8 ! value1 [7:0] $end
+$var reg 8 " value2 [7:0] $end
+$scope module uut $end
+$var wire 8 # value1 [7:0] $end
+$var wire 8 $ value2 [7:0] $end
+$var reg 4 % hammingValue [3:0] $end
+$var integer 32 & i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000 &
+b0 %
+bz $
+bz #
+b10111111 "
+b10110000 !
+$end
+#10
+b10111111 !
+#20
