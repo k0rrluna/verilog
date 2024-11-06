@@ -9,7 +9,7 @@ integer i = 0;
 always @(*) begin
     hammingValue = 0;
     for(i = 0; i < 8; i = i+1) begin
-        if (value1[i] == value2[i]) begin
+        if (value1[i] != value2[i]) begin
             hammingValue = hammingValue + 1;
         end
     end

@@ -15,5 +15,6 @@ initial begin
     $dumpvars;
     value1 = 8'hB0; value2 = 8'hBF; #10;
     value1 = 8'hBF; value2 = 8'hBF; #10;
+    $display(hammingValue);
 end
 endmodule
