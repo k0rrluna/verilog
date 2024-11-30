@@ -1,0 +1,169 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_0000025ecd40d010 .scope module, "fullAdder" "fullAdder" 2 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /INPUT 1 "Z";
+    .port_info 3 /OUTPUT 1 "S";
+    .port_info 4 /OUTPUT 1 "C";
+L_0000025ecd257f60 .functor OR 1, L_0000025ecd258660, L_0000025ecd2585f0, C4<0>, C4<0>;
+o0000025ecd26dfb8 .functor BUFZ 1, C4<z>; HiZ drive
+v0000025ecd25a670_0 .net "A", 0 0, o0000025ecd26dfb8;  0 drivers
+o0000025ecd26dfe8 .functor BUFZ 1, C4<z>; HiZ drive
+v0000025ecd25ae90_0 .net "B", 0 0, o0000025ecd26dfe8;  0 drivers
+v0000025ecd25a710_0 .net "C", 0 0, L_0000025ecd257f60;  1 drivers
+v0000025ecd25a8f0_0 .net "S", 0 0, L_0000025ecd258580;  1 drivers
+v0000025ecd25afd0_0 .net "W0", 0 0, L_0000025ecd2584a0;  1 drivers
+v0000025ecd25a990_0 .net "W1", 0 0, L_0000025ecd258660;  1 drivers
+v0000025ecd25aa30_0 .net "W2", 0 0, L_0000025ecd2585f0;  1 drivers
+o0000025ecd26e138 .functor BUFZ 1, C4<z>; HiZ drive
+v0000025ecd25b070_0 .net "Z", 0 0, o0000025ecd26e138;  0 drivers
+S_0000025ecd40e9d0 .scope module, "h0" "halfAdder" 2 7, 3 1 0, S_0000025ecd40d010;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /OUTPUT 1 "S";
+    .port_info 3 /OUTPUT 1 "C";
+L_0000025ecd2584a0 .functor XOR 1, o0000025ecd26dfb8, o0000025ecd26dfe8, C4<0>, C4<0>;
+L_0000025ecd258660 .functor AND 1, o0000025ecd26dfb8, o0000025ecd26dfe8, C4<1>, C4<1>;
+v0000025ecd25a530_0 .net "A", 0 0, o0000025ecd26dfb8;  alias, 0 drivers
+v0000025ecd25adf0_0 .net "B", 0 0, o0000025ecd26dfe8;  alias, 0 drivers
+v0000025ecd25a5d0_0 .net "C", 0 0, L_0000025ecd258660;  alias, 1 drivers
+v0000025ecd25b2f0_0 .net "S", 0 0, L_0000025ecd2584a0;  alias, 1 drivers
+S_0000025ecd40eb60 .scope module, "h1" "halfAdder" 2 8, 3 1 0, S_0000025ecd40d010;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /OUTPUT 1 "S";
+    .port_info 3 /OUTPUT 1 "C";
+L_0000025ecd258580 .functor XOR 1, L_0000025ecd2584a0, o0000025ecd26e138, C4<0>, C4<0>;
+L_0000025ecd2585f0 .functor AND 1, L_0000025ecd2584a0, o0000025ecd26e138, C4<1>, C4<1>;
+v0000025ecd25b110_0 .net "A", 0 0, L_0000025ecd2584a0;  alias, 1 drivers
+v0000025ecd25a850_0 .net "B", 0 0, o0000025ecd26e138;  alias, 0 drivers
+v0000025ecd25b1b0_0 .net "C", 0 0, L_0000025ecd2585f0;  alias, 1 drivers
+v0000025ecd25a3f0_0 .net "S", 0 0, L_0000025ecd258580;  alias, 1 drivers
+S_0000025ecd40d1a0 .scope module, "mtb" "mtb" 4 1;
+ .timescale 0 0;
+v0000025ecd2c1fb0_0 .var "A", 1 0;
+v0000025ecd2c1bf0_0 .var "B", 1 0;
+v0000025ecd2c1f10_0 .net "C", 3 0, L_0000025ecd2c0f70;  1 drivers
+S_0000025ecd26aae0 .scope module, "uut" "mult2bit" 4 5, 5 1 0, S_0000025ecd40d1a0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 2 "A";
+    .port_info 1 /INPUT 2 "B";
+    .port_info 2 /OUTPUT 4 "C";
+L_0000025ecd257fd0 .functor AND 1, L_0000025ecd2c1dd0, L_0000025ecd2c0ed0, C4<1>, C4<1>;
+L_0000025ecd2c2a60 .functor AND 1, L_0000025ecd2c2230, L_0000025ecd2c0890, C4<1>, C4<1>;
+L_0000025ecd2c2de0 .functor AND 1, L_0000025ecd2c0b10, L_0000025ecd2c22d0, C4<1>, C4<1>;
+L_0000025ecd2c28a0 .functor AND 1, L_0000025ecd2c2410, L_0000025ecd2c24b0, C4<1>, C4<1>;
+v0000025ecd2c15b0_0 .net "A", 1 0, v0000025ecd2c1fb0_0;  1 drivers
+v0000025ecd2c1d30_0 .net "B", 1 0, v0000025ecd2c1bf0_0;  1 drivers
+v0000025ecd2c0bb0_0 .net "C", 3 0, L_0000025ecd2c0f70;  alias, 1 drivers
+v0000025ecd2c1e70_0 .net *"_ivl_1", 0 0, L_0000025ecd2c1dd0;  1 drivers
+v0000025ecd2c1830_0 .net *"_ivl_11", 0 0, L_0000025ecd2c22d0;  1 drivers
+v0000025ecd2c0c50_0 .net *"_ivl_12", 0 0, L_0000025ecd2c28a0;  1 drivers
+v0000025ecd2c2370_0 .net *"_ivl_15", 0 0, L_0000025ecd2c2410;  1 drivers
+v0000025ecd2c18d0_0 .net *"_ivl_17", 0 0, L_0000025ecd2c24b0;  1 drivers
+v0000025ecd2c2690_0 .net *"_ivl_3", 0 0, L_0000025ecd2c0ed0;  1 drivers
+v0000025ecd2c0a70_0 .net *"_ivl_5", 0 0, L_0000025ecd2c2230;  1 drivers
+v0000025ecd2c0cf0_0 .net *"_ivl_7", 0 0, L_0000025ecd2c0890;  1 drivers
+v0000025ecd2c1c90_0 .net *"_ivl_9", 0 0, L_0000025ecd2c0b10;  1 drivers
+v0000025ecd2c1470_0 .net "c1", 0 0, L_0000025ecd257fd0;  1 drivers
+v0000025ecd2c2190_0 .net "c2", 0 0, L_0000025ecd2c2a60;  1 drivers
+v0000025ecd2c1650_0 .net "c4", 0 0, L_0000025ecd2c2f30;  1 drivers
+v0000025ecd2c0d90_0 .net "c5", 0 0, L_0000025ecd2c2de0;  1 drivers
+L_0000025ecd2c1dd0 .part v0000025ecd2c1fb0_0, 1, 1;
+L_0000025ecd2c0ed0 .part v0000025ecd2c1bf0_0, 0, 1;
+L_0000025ecd2c2230 .part v0000025ecd2c1fb0_0, 0, 1;
+L_0000025ecd2c0890 .part v0000025ecd2c1bf0_0, 1, 1;
+L_0000025ecd2c0b10 .part v0000025ecd2c1fb0_0, 1, 1;
+L_0000025ecd2c22d0 .part v0000025ecd2c1bf0_0, 1, 1;
+L_0000025ecd2c2410 .part v0000025ecd2c1fb0_0, 0, 1;
+L_0000025ecd2c24b0 .part v0000025ecd2c1bf0_0, 0, 1;
+L_0000025ecd2c0f70 .concat8 [ 1 1 1 1], L_0000025ecd2c28a0, L_0000025ecd2c35c0, L_0000025ecd2c2fa0, L_0000025ecd2c32b0;
+S_0000025ecd26ac70 .scope module, "h0" "halfAdder" 5 14, 3 1 0, S_0000025ecd26aae0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /OUTPUT 1 "S";
+    .port_info 3 /OUTPUT 1 "C";
+L_0000025ecd2c35c0 .functor XOR 1, L_0000025ecd257fd0, L_0000025ecd2c2a60, C4<0>, C4<0>;
+L_0000025ecd2c2f30 .functor AND 1, L_0000025ecd257fd0, L_0000025ecd2c2a60, C4<1>, C4<1>;
+v0000025ecd25ab70_0 .net "A", 0 0, L_0000025ecd257fd0;  alias, 1 drivers
+v0000025ecd25acb0_0 .net "B", 0 0, L_0000025ecd2c2a60;  alias, 1 drivers
+v0000025ecd25ad50_0 .net "C", 0 0, L_0000025ecd2c2f30;  alias, 1 drivers
+v0000025ecd25af30_0 .net "S", 0 0, L_0000025ecd2c35c0;  1 drivers
+S_0000025ecd232990 .scope module, "h1" "halfAdder" 5 15, 3 1 0, S_0000025ecd26aae0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /OUTPUT 1 "S";
+    .port_info 3 /OUTPUT 1 "C";
+L_0000025ecd2c32b0 .functor XOR 1, L_0000025ecd2c2de0, L_0000025ecd2c2f30, C4<0>, C4<0>;
+L_0000025ecd2c2fa0 .functor AND 1, L_0000025ecd2c2de0, L_0000025ecd2c2f30, C4<1>, C4<1>;
+v0000025ecd2c25f0_0 .net "A", 0 0, L_0000025ecd2c2de0;  alias, 1 drivers
+v0000025ecd2c1330_0 .net "B", 0 0, L_0000025ecd2c2f30;  alias, 1 drivers
+v0000025ecd2c09d0_0 .net "C", 0 0, L_0000025ecd2c2fa0;  1 drivers
+v0000025ecd2c1b50_0 .net "S", 0 0, L_0000025ecd2c32b0;  1 drivers
+    .scope S_0000025ecd40d1a0;
+T_0 ;
+    %vpi_call 4 8 "$dumpfile", "3dmp.vcd" {0 0 0};
+    %vpi_call 4 9 "$dumpvars" {0 0 0};
+    %pushi/vec4 0, 0, 2;
+    %store/vec4 v0000025ecd2c1fb0_0, 0, 2;
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0000025ecd2c1bf0_0, 0, 2;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0000025ecd2c1fb0_0, 0, 2;
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0000025ecd2c1bf0_0, 0, 2;
+    %delay 10, 0;
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0000025ecd2c1fb0_0, 0, 2;
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0000025ecd2c1bf0_0, 0, 2;
+    %delay 10, 0;
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0000025ecd2c1fb0_0, 0, 2;
+    %pushi/vec4 0, 0, 2;
+    %store/vec4 v0000025ecd2c1bf0_0, 0, 2;
+    %delay 10, 0;
+    %pushi/vec4 0, 0, 2;
+    %store/vec4 v0000025ecd2c1fb0_0, 0, 2;
+    %pushi/vec4 0, 0, 2;
+    %store/vec4 v0000025ecd2c1bf0_0, 0, 2;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0000025ecd2c1fb0_0, 0, 2;
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0000025ecd2c1bf0_0, 0, 2;
+    %delay 10, 0;
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0000025ecd2c1fb0_0, 0, 2;
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0000025ecd2c1bf0_0, 0, 2;
+    %delay 10, 0;
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0000025ecd2c1fb0_0, 0, 2;
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0000025ecd2c1bf0_0, 0, 2;
+    %delay 10, 0;
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 6;
+    "N/A";
+    "<interactive>";
+    ".\fullAdder.v";
+    ".\halfAdder.v";
+    ".\mtb.v";
+    ".\mult2bit.v";

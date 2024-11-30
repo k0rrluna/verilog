@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "C:/cygwin64/home/koray/verilog/lab2/src/tb.v",
+  "InstLine" : 1,
+  "InstName" : "tb",
+  "ModuleFile" : "C:/cygwin64/home/koray/verilog/lab2/src/tb.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "tb",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/cygwin64/home/koray/verilog/lab2/src/tb.v",
+    "InstLine" : 6,
+    "InstName" : "uut",
+    "ModuleFile" : "C:/cygwin64/home/koray/verilog/lab2/src/lab2.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "lab2"
+   }
+  ]
+ }
+]

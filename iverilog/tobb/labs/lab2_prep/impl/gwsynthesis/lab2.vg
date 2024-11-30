@@ -1,0 +1,25 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.9.02"
+//Thu Apr 11 06:15:18 2024
+
+//Source file index table:
+//file0 "\C:/cygwin64/home/koray/verilog/lab2/src/lab2.v"
+//file1 "\C:/cygwin64/home/koray/verilog/lab2/src/tb.v"
+`timescale 100 ps/100 ps
+module tb (
+
+)
+;
+wire VCC;
+wire GND;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* tb */

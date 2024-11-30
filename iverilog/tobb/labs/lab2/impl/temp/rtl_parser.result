@@ -1,0 +1,36 @@
+[
+ {
+  "InstFile" : "C:/cygwin64/home/koray/verilog/lab2/src/BitM.v",
+  "InstLine" : 1,
+  "InstName" : "BitM",
+  "ModuleFile" : "C:/cygwin64/home/koray/verilog/lab2/src/BitM.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "BitM"
+ },
+ {
+  "InstFile" : "C:/cygwin64/home/koray/verilog/lab2/src/fullAdder.v",
+  "InstLine" : 1,
+  "InstName" : "fullAdder",
+  "ModuleFile" : "C:/cygwin64/home/koray/verilog/lab2/src/fullAdder.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "fullAdder"
+ },
+ {
+  "InstFile" : "C:/cygwin64/home/koray/verilog/lab2/src/tb.v",
+  "InstLine" : 1,
+  "InstName" : "tb",
+  "ModuleFile" : "C:/cygwin64/home/koray/verilog/lab2/src/tb.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "tb",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/cygwin64/home/koray/verilog/lab2/src/tb.v",
+    "InstLine" : 6,
+    "InstName" : "uut",
+    "ModuleFile" : "C:/cygwin64/home/koray/verilog/lab2/src/halfAdder.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "halfAdder"
+   }
+  ]
+ }
+]
