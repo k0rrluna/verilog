@@ -1,5 +1,5 @@
 $date
-	Sun Dec  1 02:50:52 2024
+	Mon Dec  9 22:38:49 2024
 $end
 $version
 	Icarus Verilog
@@ -8,11 +8,11 @@ $timescale
 	1s
 $end
 $scope module notGateTB $end
-$var wire 1 ! B $end
-$var reg 1 " A $end
+$var wire 1 ! B_o $end
+$var reg 1 " A_i $end
 $scope module uut $end
-$var wire 1 " A $end
-$var wire 1 ! B $end
+$var wire 1 " A_i $end
+$var wire 1 ! B_o $end
 $upscope $end
 $upscope $end
 $enddefinitions $end

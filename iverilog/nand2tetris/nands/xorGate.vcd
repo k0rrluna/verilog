@@ -1,5 +1,5 @@
 $date
-	Mon Dec  9 22:41:40 2024
+	Mon Dec  9 22:56:38 2024
 $end
 $version
 	Icarus Verilog
@@ -7,32 +7,42 @@ $end
 $timescale
 	1s
 $end
-$scope module andGateTB $end
-$var wire 1 ! Y_o $end
+$scope module xorGateTB $end
+$var wire 1 ! F_o $end
 $var reg 1 " A_i $end
 $var reg 1 # B_i $end
 $scope module uut $end
 $var wire 1 " A_i $end
 $var wire 1 # B_i $end
-$var wire 1 ! Y_o $end
-$var wire 1 $ nand_out $end
+$var wire 1 ! F_o $end
+$var wire 1 $ nand1_out $end
+$var wire 1 % nand2_out $end
+$var wire 1 & nand3_out $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
 #0
 $dumpvars
+1&
+1%
 1$
 0#
 0"
 0!
 $end
 #10
+1!
+0&
 1#
 #20
+1&
+0%
 0#
 1"
 #30
-1!
+0!
+1%
 0$
+1&
 1#
 #40

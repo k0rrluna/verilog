@@ -3,7 +3,7 @@ module fulladdertb ();
 reg r1, r2, r3;
 wire w1, w2;
 
-FullAdder uut(
+fulladder uut(
     .A(r1),
     .B(r2),
     .Cin(r3),
