@@ -1,7 +1,7 @@
 module andGate (
-   input  wire A_i,
-   input  wire B_i,
-   output wire Y_o
+   input  A_i,
+   input  B_i,
+   output Y_o
 );
 
    wire nand_out;

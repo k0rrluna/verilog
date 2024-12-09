@@ -1,0 +1,73 @@
+#! /usr/bin/vvp
+:ivl_version "11.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/system.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/va_math.vpi";
+S_0x55620be3ed30 .scope module, "muxGateTB" "muxGateTB" 2 1;
+ .timescale 0 0;
+v0x55620be51410_0 .var "A_i", 0 0;
+v0x55620be514d0_0 .var "B_i", 0 0;
+v0x55620be515a0_0 .var "S_i", 0 0;
+v0x55620be516a0_0 .net "Y_o", 0 0, L_0x55620be519e0;  1 drivers
+S_0x55620be3eec0 .scope module, "uut" "muxGate" 2 5, 3 1 0, S_0x55620be3ed30;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A_i";
+    .port_info 1 /INPUT 1 "B_i";
+    .port_info 2 /INPUT 1 "S_i";
+    .port_info 3 /OUTPUT 1 "Y_o";
+L_0x55620be51770 .functor NAND 1, v0x55620be515a0_0, v0x55620be515a0_0, C4<1>, C4<1>;
+L_0x55620be51860 .functor NAND 1, v0x55620be51410_0, v0x55620be515a0_0, C4<1>, C4<1>;
+L_0x55620be51920 .functor NAND 1, v0x55620be514d0_0, L_0x55620be51770, C4<1>, C4<1>;
+L_0x55620be519e0 .functor NAND 1, L_0x55620be51860, L_0x55620be51920, C4<1>, C4<1>;
+v0x55620be2c2e0_0 .net "A_i", 0 0, v0x55620be51410_0;  1 drivers
+v0x55620be50eb0_0 .net "B_i", 0 0, v0x55620be514d0_0;  1 drivers
+v0x55620be50f70_0 .net "S_i", 0 0, v0x55620be515a0_0;  1 drivers
+v0x55620be51040_0 .net "Y_o", 0 0, L_0x55620be519e0;  alias, 1 drivers
+v0x55620be51100_0 .net "nand2_out", 0 0, L_0x55620be51860;  1 drivers
+v0x55620be51210_0 .net "nand3_out", 0 0, L_0x55620be51920;  1 drivers
+v0x55620be512d0_0 .net "notS", 0 0, L_0x55620be51770;  1 drivers
+    .scope S_0x55620be3ed30;
+T_0 ;
+    %vpi_call 2 13 "$dumpfile", "muxGate.vcd" {0 0 0};
+    %vpi_call 2 14 "$dumpvars" {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x55620be51410_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55620be514d0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x55620be515a0_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55620be51410_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x55620be514d0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x55620be515a0_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x55620be51410_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55620be514d0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55620be515a0_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x55620be51410_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55620be514d0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55620be515a0_0, 0, 1;
+    %delay 10, 0;
+    %vpi_call 2 19 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "muxGateTB.v";
+    "muxGate.v";

@@ -1,0 +1,66 @@
+#! /usr/bin/vvp
+:ivl_version "11.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/system.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/va_math.vpi";
+S_0x55e3e0602d50 .scope module, "dmuxGateTB" "dmuxGateTB" 2 1;
+ .timescale 0 0;
+v0x55e3e0628ba0_0 .var "A_i", 0 0;
+v0x55e3e0628c60_0 .var "S_i", 0 0;
+v0x55e3e0628d30_0 .net "Y0_o", 0 0, L_0x55e3e0629100;  1 drivers
+v0x55e3e0628e30_0 .net "Y1_o", 0 0, L_0x55e3e06292b0;  1 drivers
+S_0x55e3e0617050 .scope module, "uut" "dmuxGate" 2 5, 3 1 0, S_0x55e3e0602d50;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A_i";
+    .port_info 1 /INPUT 1 "S_i";
+    .port_info 2 /OUTPUT 1 "Y0_o";
+    .port_info 3 /OUTPUT 1 "Y1_o";
+L_0x55e3e0628f00 .functor NAND 1, v0x55e3e0628c60_0, v0x55e3e0628c60_0, C4<1>, C4<1>;
+L_0x55e3e0628ff0 .functor NAND 1, L_0x55e3e0628f00, v0x55e3e0628ba0_0, C4<1>, C4<1>;
+L_0x55e3e0629100 .functor NAND 1, L_0x55e3e0628ff0, L_0x55e3e0628ff0, C4<1>, C4<1>;
+L_0x55e3e0629210 .functor NAND 1, v0x55e3e0628c60_0, v0x55e3e0628ba0_0, C4<1>, C4<1>;
+L_0x55e3e06292b0 .functor NAND 1, L_0x55e3e0629210, L_0x55e3e0629210, C4<1>, C4<1>;
+v0x55e3e06172a0_0 .net "A_i", 0 0, v0x55e3e0628ba0_0;  1 drivers
+v0x55e3e0628640_0 .net "S_i", 0 0, v0x55e3e0628c60_0;  1 drivers
+v0x55e3e0628700_0 .net "Y0_o", 0 0, L_0x55e3e0629100;  alias, 1 drivers
+v0x55e3e06287d0_0 .net "Y1_o", 0 0, L_0x55e3e06292b0;  alias, 1 drivers
+v0x55e3e0628890_0 .net "nand2_out", 0 0, L_0x55e3e0628ff0;  1 drivers
+v0x55e3e06289a0_0 .net "nand4_out", 0 0, L_0x55e3e0629210;  1 drivers
+v0x55e3e0628a60_0 .net "notS", 0 0, L_0x55e3e0628f00;  1 drivers
+    .scope S_0x55e3e0602d50;
+T_0 ;
+    %vpi_call 2 13 "$dumpfile", "dmuxGate.vcd" {0 0 0};
+    %vpi_call 2 14 "$dumpvars" {0 0 0};
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x55e3e0628ba0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x55e3e0628c60_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55e3e0628ba0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x55e3e0628c60_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x55e3e0628ba0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55e3e0628c60_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55e3e0628ba0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x55e3e0628c60_0, 0, 1;
+    %delay 10, 0;
+    %vpi_call 2 20 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "dmuxGateTB.v";
+    "dmuxGate.v";

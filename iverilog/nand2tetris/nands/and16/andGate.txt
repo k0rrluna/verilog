@@ -1,0 +1,3 @@
+We're going to use 1-bit andGate module for this 16-bit module.
+
+We already have andGate module made with nands.
