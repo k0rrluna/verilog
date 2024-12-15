@@ -1,25 +1,29 @@
 module overflowDetect (
     input [1:0] opCode,
     input [3:0] A, B,
-    input [4:0] Y,
+    input [3:0] Y,
+    input CarryOUT,
     output overflowDetect
 );
 
-wire opC,AandSum;
+wire opC;
 wire sign1, sign2, sign3, sign4;
+wire addOverflow, subOverflow;
 wire detect1, detect2;
 
-or o1 (opC, opCode[0], opCode[1]);
-xor xo1 (AandSum, Y[4], A[3]);
+or o1 (opC, opCode[0], opCode[1]); //check add or sub
 
-and a1 (sign1, A[3], B[3]);
-or o2 (sign2, opCode[0], sign1);
+xnor xno1 (sign1, A[3], B[3]); // A B same sign
+xor xo2 (sign3, A[3], B[3]); // A and B opposite sign
 
-xor a2 (sign3, A[3], B[3]);
-or o3 (sign4, opCode[1], sign3);
+xor xo1 (sign2, Y[3], A[3]); // A and Sum opposite sign
 
-or o4 (detect1, sign2, sign4);
-and a3 (detect2, AandSum, opC);
-and a4 (overflowDetect, detect1, detect2);
+and a01 (addOverflow, sign1, opCode[0]); // A B same for add
+and a02 (subOverflow, sign3, opCode[1]); // A B diff for sub
+
+or o2 (detect1, addOverflow, subOverflow);
+
+and a03(detect2, detect1, sign2);
+and a04(overflowDetect, opC, detect2);
 
 endmodule
