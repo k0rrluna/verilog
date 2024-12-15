@@ -1,7 +1,7 @@
 module ALU (
     input [3:0] A, B,
     input CarryIN,
-    input opCodeA, opCodeB, opCodeC,
+    input [2:0] opCodeA,
     output [3:0] Y,
     output CarryOUT, overflow
 );
@@ -14,7 +14,7 @@ wire [3:0] resultA, resultO, resultX, lUOutput1;
 wire [3:0] aUtemp1, aUtemp2, lUOutput2;
 wire [3:0] wireY;
 
-opCode opCd (.A(opCodeA), .B(opCodeB), .C(opCodeC), .opCode(opCode8));
+opCode opCd (.A(opCodeA), .opCode(opCode8));
 
 arithmeticUnit aU(.opCode(opCode8[1:0]), .A(A), .B(B), .CarryIN(CarryIN), .add_Y(add_Y), .sub_Y(sub_Y), .CarryOUT(CarryOUT), .overflow(overflow));
 logicUnit lU (.opCode(opCode8[6:4]), .A(A), .B(B), .resultA(resultA), .resultO(resultO), .resultX(resultX));
