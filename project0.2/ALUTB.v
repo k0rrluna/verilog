@@ -3,7 +3,7 @@ module ALUTB ();
 reg [3:0] A, B;
 reg CarryIN;
 reg [2:0] opCodeA;
-wire [3:0] Y;
+wire [7:0] Y;
 wire CarryOUT, overflow;
 
 ALU uut(
@@ -30,6 +30,12 @@ initial begin
     A = 4'b1111; B = 4'b0000; CarryIN = 1'b0; opCodeA = 3'b001; #5;
     A = 4'b1111; B = 4'b1111; CarryIN = 1'b1; opCodeA = 3'b001; #5;
     A = 4'b0111; B = 4'b1111; CarryIN = 1'b1; opCodeA = 3'b001; #5;
+
+    A = 4'b0000; B = 4'b0000; CarryIN = 1'b0; opCodeA = 3'b010; #5;
+    A = 4'b0000; B = 4'b1111; CarryIN = 1'b0; opCodeA = 3'b010; #5;
+    A = 4'b1111; B = 4'b0000; CarryIN = 1'b0; opCodeA = 3'b010; #5;
+    A = 4'b1111; B = 4'b1111; CarryIN = 1'b1; opCodeA = 3'b010; #5;
+    A = 4'b0111; B = 4'b1111; CarryIN = 1'b1; opCodeA = 3'b010; #5;
     $finish; //NOT CONTAIN CLK, BUT STILL STOPS CODE
 end
 
