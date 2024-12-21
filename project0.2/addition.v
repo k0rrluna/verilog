@@ -14,7 +14,7 @@ fulladder f2(.A(A[2]), .B(B[2]), .Carry(Carry4[1]), .Sum(Y[2]), .CarryO(Carry4[2
 fulladder f3(.A(A[3]), .B(B[3]), .Carry(Carry4[2]), .Sum(Y[3]), .CarryO(CarryOUT));
 
 
-overflowDetect od1 (.opCode(2'b01), .A(A), .B(B), .Y(Y), .CarryOUT(CarryOUT), .overflowDetect(overflow));
-
+//overflowDetect od1 (.opCode(2'b01), .A(A), .B(B), .Y(Y), .CarryOUT(CarryOUT), .overflowDetect(overflow));
+xor ov1 (overflow, Carry4[2], CarryOUT);
 
 endmodule

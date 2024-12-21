@@ -3,8 +3,7 @@ module subtractionTB;
 reg [3:0] A, B;
 reg BorrowIN;
 wire [3:0] Y;
-wire BorrowOut;
-wire overflow;
+wire BorrowOUT;
 
 // Instantiate the subtraction module
 subtraction uut (
@@ -12,8 +11,7 @@ subtraction uut (
     .B(B),
     .BorrowIN(BorrowIN),
     .Y(Y),
-    .BorrowOut(BorrowOut),
-    .overflow(overflow)
+    .BorrowOUT(BorrowOUT)
 );
 
 initial begin
@@ -26,6 +24,7 @@ initial begin
 
     // Apply test cases
     #10 A = 4'b0110; B = 4'b0010; BorrowIN = 0; // A = 6, B = 2
+    #10 A = 4'b0010; B = 4'b0110; BorrowIN = 0; // A = 2, B = 6
     #10 A = 4'b1100; B = 4'b0100; BorrowIN = 0; // A = -4, B = 4
     #10 A = 4'b1000; B = 4'b1000; BorrowIN = 0; // A = -8, B = -8
     #10 A = 4'b1111; B = 4'b0001; BorrowIN = 1; // A = -1, B = 1, with borrow input
