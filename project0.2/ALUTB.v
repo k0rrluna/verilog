@@ -3,16 +3,16 @@ module ALUTB ();
 reg [3:0] A, B;
 reg CarryIN;
 reg [2:0] opCodeA;
-wire [7:0] Y;
 wire CarryOUT, overflow;
+wire [11:0] bcd;
 
 ALU uut(
     .A(A),
     .B(B),
     .CarryIN(CarryIN),
     .opCodeA(opCodeA),
-    .Y(Y),
     .CarryOUT(CarryOUT),
+    .bcd(bcd),
     .overflow(overflow)
 );
 
