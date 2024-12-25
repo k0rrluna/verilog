@@ -8,7 +8,7 @@ module arithmeticUnit (
 );
 
 wire [3:0] addY, subY;
-wire CarryOUTADD, CarryOUTSUB;
+wire CarryOUTADD, CarryOUTSUB, tempCAdd, tempCSub;
 
 addition a1(.A(A), .B(B), .CarryIN(CarryIN), .Y(addY), .CarryOUT(CarryOUTADD), .overflow(overflow));
 subtraction s1(.A(A), .B(B), .BorrowIN(CarryIN), .Y(subY), .BorrowOUT(CarryOUTSUB));
@@ -23,6 +23,9 @@ and sub2 (sub_Y[1], opCode[1], subY[1]);
 and sub3 (sub_Y[2], opCode[1], subY[2]);
 and sub4 (sub_Y[3], opCode[1], subY[3]);
 
-or or1 (CarryOUT, CarryOUTADD, CarryOUTSUB);
+// or or1 (CarryOUT, CarryOUTADD, CarryOUTSUB); (OLD!!!)
+and and10 (tempCSub, CarryOUTSUB, opCode[1]);
+and and11 (tempCAdd, CarryOUTADD, opCode[0]);
+or or4 (CarryOUT, tempCAdd, tempCSub);
 
 endmodule
