@@ -33,9 +33,9 @@ initial begin
     #10 $finish;
 end
 
-initial begin
+//initial begin
     // Monitor the values of Y and overflow
-    $monitor("At time %t: A = %b, B = %b, Y = %b, BorrowOut = %b, overflow = %b", $time, A, B, Y, BorrowOut, overflow);
-end
+  //  $monitor("At time %t: A = %b, B = %b, Y = %b, BorrowOut = %b, overflow = %b", $time, A, B, Y, BorrowOut, overflow);
+//end
 
 endmodule
