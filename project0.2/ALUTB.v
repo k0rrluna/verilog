@@ -19,17 +19,17 @@ ALU uut(
 initial begin
     $dumpfile("ALU.vcd"); // GTKWAVE SIMULTAIN DATA WAVEFORM
     $dumpvars; // ICARUS VERILOG ADD ALL VARIABLES
-    A = 4'b0000; B = 4'b0000; CarryIN = 1'b0; opCodeA = 3'b000; #5;
-    A = 4'b0000; B = 4'b1111; CarryIN = 1'b0; opCodeA = 3'b000; #5;
-    A = 4'b1111; B = 4'b0000; CarryIN = 1'b0; opCodeA = 3'b000; #5;
-    A = 4'b1111; B = 4'b1111; CarryIN = 1'b1; opCodeA = 3'b000; #5;
-    A = 4'b0111; B = 4'b0111; CarryIN = 1'b1; opCodeA = 3'b000; #5;
+    A = 4'b0000; B = 4'b0000; CarryIN = 1'b0; opCodeA = 3'b011; #5;
+    A = 4'b0000; B = 4'b1111; CarryIN = 1'b0; opCodeA = 3'b011; #5;
+    A = 4'b1111; B = 4'b0000; CarryIN = 1'b0; opCodeA = 3'b011; #5;
+    A = 4'b1111; B = 4'b1111; CarryIN = 1'b1; opCodeA = 3'b011; #5;
+    A = 4'b0111; B = 4'b0111; CarryIN = 1'b1; opCodeA = 3'b011; #5;
 
-    A = 4'b0000; B = 4'b0000; CarryIN = 1'b0; opCodeA = 3'b001; #5;
-    A = 4'b0000; B = 4'b1111; CarryIN = 1'b0; opCodeA = 3'b001; #5;
-    A = 4'b1111; B = 4'b0000; CarryIN = 1'b0; opCodeA = 3'b001; #5;
-    A = 4'b1111; B = 4'b1111; CarryIN = 1'b1; opCodeA = 3'b001; #5;
-    A = 4'b0111; B = 4'b1111; CarryIN = 1'b1; opCodeA = 3'b001; #5;
+    A = 4'b0000; B = 4'b0000; CarryIN = 1'b0; opCodeA = 3'b111; #5;
+    A = 4'b0000; B = 4'b1111; CarryIN = 1'b0; opCodeA = 3'b111; #5;
+    A = 4'b1111; B = 4'b0000; CarryIN = 1'b0; opCodeA = 3'b111; #5;
+    A = 4'b1111; B = 4'b1111; CarryIN = 1'b1; opCodeA = 3'b111; #5;
+    A = 4'b0111; B = 4'b1111; CarryIN = 1'b1; opCodeA = 3'b111; #5;
 
     A = 4'b0000; B = 4'b0000; CarryIN = 1'b0; opCodeA = 3'b010; #5;
     A = 4'b0000; B = 4'b1111; CarryIN = 1'b0; opCodeA = 3'b010; #5;
