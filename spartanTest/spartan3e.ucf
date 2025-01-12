@@ -1,0 +1,22 @@
+# Clock signal
+NET "clk"      LOC = "C9"  | IOSTANDARD = LVCMOS33 ;
+
+# Slide Switches
+NET "switches<0>" LOC = "L13" | IOSTANDARD = LVCMOS33 | PULLUP ;
+NET "switches<1>" LOC = "L14" | IOSTANDARD = LVCMOS33 | PULLUP ;
+NET "switches<2>" LOC = "H18" | IOSTANDARD = LVCMOS33 | PULLUP ;
+NET "switches<3>" LOC = "N17" | IOSTANDARD = LVCMOS33 | PULLUP ;
+
+# Rotary Encoder
+NET "rot_a"    LOC = "K18" | IOSTANDARD = LVCMOS33 | PULLUP ;
+NET "rot_b"    LOC = "G18" | IOSTANDARD = LVCMOS33 | PULLUP ;
+NET "rot_center" LOC = "V16" | IOSTANDARD = LVCMOS33 | PULLDOWN ;
+
+# LCD Interface
+NET "lcd_e"    LOC = "M18" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "lcd_rs"   LOC = "L18" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "lcd_rw"   LOC = "L17" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "lcd_d<4>" LOC = "R15" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "lcd_d<5>" LOC = "R16" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "lcd_d<6>" LOC = "P17" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;
+NET "lcd_d<7>" LOC = "M15" | IOSTANDARD = LVCMOS33 | DRIVE = 4 | SLEW = SLOW ;

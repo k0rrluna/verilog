@@ -1,5 +1,5 @@
 $date
-	Wed Jan  8 01:04:48 2025
+	Wed Jan  8 01:16:47 2025
 $end
 $version
 	Icarus Verilog
@@ -20,29 +20,25 @@ $var wire 4 ( B [3:0] $end
 $var wire 8 ) Y [7:0] $end
 $var wire 3 * opCodeA [2:0] $end
 $var wire 4 + select [3:0] $end
-$var wire 1 , temps $end
-$var wire 1 - tempsO $end
-$var wire 8 . y0 [7:0] $end
-$var wire 4 / tempYO [3:0] $end
-$var wire 4 0 tempAB [3:0] $end
-$var wire 8 1 s0 [7:0] $end
-$var wire 3 2 op0 [2:0] $end
-$var wire 4 3 b0 [3:0] $end
-$var wire 4 4 a0 [3:0] $end
+$var wire 8 , y0 [7:0] $end
+$var wire 4 - tempYO [3:0] $end
+$var wire 4 . tempAB [3:0] $end
+$var wire 8 / s0 [7:0] $end
+$var wire 3 0 op0 [2:0] $end
+$var wire 4 1 b0 [3:0] $end
+$var wire 4 2 a0 [3:0] $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
 #0
 $dumpvars
-b0 4
-b10 3
 b0 2
 b10 1
-b10 0
-b0 /
-b0 .
-0-
-1,
+b0 0
+b10 /
+b10 .
+b0 -
+b0 ,
 b10 +
 b111 *
 bz )
@@ -57,29 +53,28 @@ b10 !
 $end
 #5
 b1 !
-b1 1
-b1 0
-b1 4
-b0 3
+b1 /
+b1 .
+b1 2
+b0 1
 b1 &
 b1 +
 #10
-b0xxxx !
-b0xxxx 1
-b0 0
+b0 .
+bx -
+bx !
 bx /
-0,
-b0 4
-bx .
-1-
+b0 2
+bx ,
 b100 &
 b100 +
+b1110000 $
 #15
+b111 -
 b111 !
-b111 1
 b111 /
-b0 .
-b111 2
+b0 ,
+b111 0
 b1000 &
 b1000 +
 #20
