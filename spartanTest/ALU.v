@@ -2,7 +2,7 @@ module ALU (
     input [3:0] A, B,
     input CarryIN,
     input [2:0] opCodeA,
-    output [7:0] Y,
+    output [11:0] bcd,
     output CarryOUT, overflow
 );
 
@@ -73,7 +73,7 @@ or o36 (Y[5], 1'b0, wireM[5]);
 or o37 (Y[6], 1'b0, wireM[6]);
 or o38 (Y[7], 1'b0, wireM[7]);
 
-//BinaryToBCD btod1(.binary(Y), .bcd(bcd)); // WIRE Y BINARY!!!!
+BinaryToBCD btod1(.binary(Y), .bcd(bcd)); // WIRE Y BINARY!!!!
 
 
 endmodule
