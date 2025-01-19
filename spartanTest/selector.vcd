@@ -1,0 +1,59 @@
+$date
+	Sat Jan 18 17:21:23 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module selectorTB $end
+$var wire 8 ! Y [7:0] $end
+$var reg 4 " A [3:0] $end
+$var reg 8 # ALUY [7:0] $end
+$var reg 4 $ B [3:0] $end
+$var reg 3 % opCodeA [2:0] $end
+$var reg 2 & select [1:0] $end
+$scope module uut $end
+$var wire 4 ' A [3:0] $end
+$var wire 8 ( ALUY [7:0] $end
+$var wire 4 ) B [3:0] $end
+$var wire 3 * opCodeA [2:0] $end
+$var wire 2 + select [1:0] $end
+$var reg 8 , Y [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 ,
+b0 +
+b111 *
+b10 )
+b11110000 (
+b1 '
+b0 &
+b111 %
+b10 $
+b11110000 #
+b1 "
+b1 !
+$end
+#5
+b10 !
+b10 ,
+b1 &
+b1 +
+#10
+b111 !
+b111 ,
+b10 &
+b10 +
+b1110000 #
+b1110000 (
+#15
+b1110000 !
+b1110000 ,
+b11 &
+b11 +
+#20
