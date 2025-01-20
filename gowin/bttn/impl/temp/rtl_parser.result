@@ -9,7 +9,7 @@
   "SubInsts" : [
    {
     "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/bttn.v",
-    "InstLine" : 10,
+    "InstLine" : 11,
     "InstName" : "a1",
     "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/ALU.v",
     "ModuleLine" : 1,
@@ -691,7 +691,7 @@
    },
    {
     "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/bttn.v",
-    "InstLine" : 11,
+    "InstLine" : 12,
     "InstName" : "s1",
     "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/selector.v",
     "ModuleLine" : 1,
