@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2A-18C" package="PBGA256" speed="8" partNumber="GW2A-LV18PG256C8/I7"/>
+    <FileList>
+        <File path="\\wsl.localhost\Debian\home\koray\code\verilog\gowin\bttn\src\ALU.v" type="verilog"/>
+        <File path="\\wsl.localhost\Debian\home\koray\code\verilog\gowin\bttn\src\BinaryToBCD.v" type="verilog"/>
+        <File path="\\wsl.localhost\Debian\home\koray\code\verilog\gowin\bttn\src\addition.v" type="verilog"/>
+        <File path="\\wsl.localhost\Debian\home\koray\code\verilog\gowin\bttn\src\arithmeticUnit.v" type="verilog"/>
+        <File path="\\wsl.localhost\Debian\home\koray\code\verilog\gowin\bttn\src\bttn.v" type="verilog"/>
+        <File path="\\wsl.localhost\Debian\home\koray\code\verilog\gowin\bttn\src\dabble.v" type="verilog"/>
+        <File path="\\wsl.localhost\Debian\home\koray\code\verilog\gowin\bttn\src\fulladder.v" type="verilog"/>
+        <File path="\\wsl.localhost\Debian\home\koray\code\verilog\gowin\bttn\src\fullsubtraction.v" type="verilog"/>
+        <File path="\\wsl.localhost\Debian\home\koray\code\verilog\gowin\bttn\src\halfadder.v" type="verilog"/>
+        <File path="\\wsl.localhost\Debian\home\koray\code\verilog\gowin\bttn\src\halfsubtraction.v" type="verilog"/>
+        <File path="\\wsl.localhost\Debian\home\koray\code\verilog\gowin\bttn\src\logicUnit.v" type="verilog"/>
+        <File path="\\wsl.localhost\Debian\home\koray\code\verilog\gowin\bttn\src\multiplier.v" type="verilog"/>
+        <File path="\\wsl.localhost\Debian\home\koray\code\verilog\gowin\bttn\src\opCode.v" type="verilog"/>
+        <File path="\\wsl.localhost\Debian\home\koray\code\verilog\gowin\bttn\src\selector.v" type="verilog"/>
+        <File path="\\wsl.localhost\Debian\home\koray\code\verilog\gowin\bttn\src\subtraction.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="\\wsl.localhost\Debian\home\koray\code\verilog\gowin\bttn\impl\gwsynthesis\bttn.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>
