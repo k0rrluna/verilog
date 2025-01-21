@@ -1,143 +1,148 @@
 [
  {
-  "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/bttn.v",
+  "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/bttn.v",
   "InstLine" : 1,
   "InstName" : "bttn",
-  "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/bttn.v",
+  "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/bttn.v",
   "ModuleLine" : 1,
   "ModuleName" : "bttn",
   "SubInsts" : [
    {
+<<<<<<< HEAD
     "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/bttn.v",
     "InstLine" : 11,
+=======
+    "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/bttn.v",
+    "InstLine" : 10,
+>>>>>>> 15916a2c534beff06a16239dd4912b40b7f837b6
     "InstName" : "a1",
-    "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/ALU.v",
+    "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/ALU.v",
     "ModuleLine" : 1,
     "ModuleName" : "ALU",
     "SubInsts" : [
      {
-      "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/ALU.v",
+      "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/ALU.v",
       "InstLine" : 18,
       "InstName" : "opCd",
-      "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/opCode.v",
+      "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/opCode.v",
       "ModuleLine" : 1,
       "ModuleName" : "opCode"
      },
      {
-      "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/ALU.v",
+      "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/ALU.v",
       "InstLine" : 20,
       "InstName" : "aU",
-      "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/arithmeticUnit.v",
+      "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/arithmeticUnit.v",
       "ModuleLine" : 1,
       "ModuleName" : "arithmeticUnit",
       "SubInsts" : [
        {
-        "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/arithmeticUnit.v",
+        "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/arithmeticUnit.v",
         "InstLine" : 13,
         "InstName" : "a1",
-        "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+        "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
         "ModuleLine" : 1,
         "ModuleName" : "addition",
         "SubInsts" : [
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
           "InstLine" : 11,
           "InstName" : "f0",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
           "ModuleLine" : 1,
           "ModuleName" : "fulladder",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 8,
             "InstName" : "h1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 9,
             "InstName" : "h2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            }
           ]
          },
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
           "InstLine" : 12,
           "InstName" : "f1",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
           "ModuleLine" : 1,
           "ModuleName" : "fulladder",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 8,
             "InstName" : "h1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 9,
             "InstName" : "h2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            }
           ]
          },
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
           "InstLine" : 13,
           "InstName" : "f2",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
           "ModuleLine" : 1,
           "ModuleName" : "fulladder",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 8,
             "InstName" : "h1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 9,
             "InstName" : "h2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            }
           ]
          },
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
           "InstLine" : 14,
           "InstName" : "f3",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
           "ModuleLine" : 1,
           "ModuleName" : "fulladder",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 8,
             "InstName" : "h1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 9,
             "InstName" : "h2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            }
@@ -146,112 +151,112 @@
         ]
        },
        {
-        "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/arithmeticUnit.v",
+        "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/arithmeticUnit.v",
         "InstLine" : 14,
         "InstName" : "s1",
-        "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/subtraction.v",
+        "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/subtraction.v",
         "ModuleLine" : 1,
         "ModuleName" : "subtraction",
         "SubInsts" : [
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/subtraction.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/subtraction.v",
           "InstLine" : 11,
           "InstName" : "f0",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fullsubtraction.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fullsubtraction.v",
           "ModuleLine" : 1,
           "ModuleName" : "fullsubtraction",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fullsubtraction.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fullsubtraction.v",
             "InstLine" : 8,
             "InstName" : "hf1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfsubtraction.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfsubtraction.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfsubtraction"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fullsubtraction.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fullsubtraction.v",
             "InstLine" : 9,
             "InstName" : "hf2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfsubtraction.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfsubtraction.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfsubtraction"
            }
           ]
          },
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/subtraction.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/subtraction.v",
           "InstLine" : 12,
           "InstName" : "f1",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fullsubtraction.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fullsubtraction.v",
           "ModuleLine" : 1,
           "ModuleName" : "fullsubtraction",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fullsubtraction.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fullsubtraction.v",
             "InstLine" : 8,
             "InstName" : "hf1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfsubtraction.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfsubtraction.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfsubtraction"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fullsubtraction.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fullsubtraction.v",
             "InstLine" : 9,
             "InstName" : "hf2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfsubtraction.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfsubtraction.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfsubtraction"
            }
           ]
          },
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/subtraction.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/subtraction.v",
           "InstLine" : 13,
           "InstName" : "f2",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fullsubtraction.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fullsubtraction.v",
           "ModuleLine" : 1,
           "ModuleName" : "fullsubtraction",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fullsubtraction.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fullsubtraction.v",
             "InstLine" : 8,
             "InstName" : "hf1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfsubtraction.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfsubtraction.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfsubtraction"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fullsubtraction.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fullsubtraction.v",
             "InstLine" : 9,
             "InstName" : "hf2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfsubtraction.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfsubtraction.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfsubtraction"
            }
           ]
          },
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/subtraction.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/subtraction.v",
           "InstLine" : 14,
           "InstName" : "f3",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fullsubtraction.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fullsubtraction.v",
           "ModuleLine" : 1,
           "ModuleName" : "fullsubtraction",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fullsubtraction.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fullsubtraction.v",
             "InstLine" : 8,
             "InstName" : "hf1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfsubtraction.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfsubtraction.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfsubtraction"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fullsubtraction.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fullsubtraction.v",
             "InstLine" : 9,
             "InstName" : "hf2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfsubtraction.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfsubtraction.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfsubtraction"
            }
@@ -262,128 +267,128 @@
       ]
      },
      {
-      "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/ALU.v",
+      "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/ALU.v",
       "InstLine" : 21,
       "InstName" : "lU",
-      "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/logicUnit.v",
+      "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/logicUnit.v",
       "ModuleLine" : 1,
       "ModuleName" : "logicUnit"
      },
      {
-      "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/ALU.v",
+      "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/ALU.v",
       "InstLine" : 22,
       "InstName" : "mU",
-      "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/multiplier.v",
+      "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/multiplier.v",
       "ModuleLine" : 1,
       "ModuleName" : "multiplier",
       "SubInsts" : [
        {
-        "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/multiplier.v",
+        "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/multiplier.v",
         "InstLine" : 26,
         "InstName" : "add0",
-        "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+        "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
         "ModuleLine" : 1,
         "ModuleName" : "addition",
         "SubInsts" : [
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
           "InstLine" : 11,
           "InstName" : "f0",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
           "ModuleLine" : 1,
           "ModuleName" : "fulladder",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 8,
             "InstName" : "h1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 9,
             "InstName" : "h2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            }
           ]
          },
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
           "InstLine" : 12,
           "InstName" : "f1",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
           "ModuleLine" : 1,
           "ModuleName" : "fulladder",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 8,
             "InstName" : "h1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 9,
             "InstName" : "h2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            }
           ]
          },
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
           "InstLine" : 13,
           "InstName" : "f2",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
           "ModuleLine" : 1,
           "ModuleName" : "fulladder",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 8,
             "InstName" : "h1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 9,
             "InstName" : "h2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            }
           ]
          },
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
           "InstLine" : 14,
           "InstName" : "f3",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
           "ModuleLine" : 1,
           "ModuleName" : "fulladder",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 8,
             "InstName" : "h1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 9,
             "InstName" : "h2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            }
@@ -392,112 +397,112 @@
         ]
        },
        {
-        "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/multiplier.v",
+        "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/multiplier.v",
         "InstLine" : 42,
         "InstName" : "add1",
-        "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+        "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
         "ModuleLine" : 1,
         "ModuleName" : "addition",
         "SubInsts" : [
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
           "InstLine" : 11,
           "InstName" : "f0",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
           "ModuleLine" : 1,
           "ModuleName" : "fulladder",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 8,
             "InstName" : "h1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 9,
             "InstName" : "h2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            }
           ]
          },
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
           "InstLine" : 12,
           "InstName" : "f1",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
           "ModuleLine" : 1,
           "ModuleName" : "fulladder",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 8,
             "InstName" : "h1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 9,
             "InstName" : "h2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            }
           ]
          },
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
           "InstLine" : 13,
           "InstName" : "f2",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
           "ModuleLine" : 1,
           "ModuleName" : "fulladder",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 8,
             "InstName" : "h1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 9,
             "InstName" : "h2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            }
           ]
          },
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
           "InstLine" : 14,
           "InstName" : "f3",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
           "ModuleLine" : 1,
           "ModuleName" : "fulladder",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 8,
             "InstName" : "h1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 9,
             "InstName" : "h2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            }
@@ -506,112 +511,112 @@
         ]
        },
        {
-        "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/multiplier.v",
+        "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/multiplier.v",
         "InstLine" : 58,
         "InstName" : "add2",
-        "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+        "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
         "ModuleLine" : 1,
         "ModuleName" : "addition",
         "SubInsts" : [
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
           "InstLine" : 11,
           "InstName" : "f0",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
           "ModuleLine" : 1,
           "ModuleName" : "fulladder",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 8,
             "InstName" : "h1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 9,
             "InstName" : "h2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            }
           ]
          },
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
           "InstLine" : 12,
           "InstName" : "f1",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
           "ModuleLine" : 1,
           "ModuleName" : "fulladder",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 8,
             "InstName" : "h1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 9,
             "InstName" : "h2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            }
           ]
          },
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
           "InstLine" : 13,
           "InstName" : "f2",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
           "ModuleLine" : 1,
           "ModuleName" : "fulladder",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 8,
             "InstName" : "h1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 9,
             "InstName" : "h2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            }
           ]
          },
          {
-          "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+          "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
           "InstLine" : 14,
           "InstName" : "f3",
-          "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+          "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
           "ModuleLine" : 1,
           "ModuleName" : "fulladder",
           "SubInsts" : [
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 8,
             "InstName" : "h1",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            },
            {
-            "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+            "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
             "InstLine" : 9,
             "InstName" : "h2",
-            "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+            "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
             "ModuleLine" : 1,
             "ModuleName" : "halfadder"
            }
@@ -622,66 +627,66 @@
       ]
      },
      {
-      "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/ALU.v",
+      "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/ALU.v",
       "InstLine" : 76,
       "InstName" : "btod1",
-      "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/BinaryToBCD.v",
+      "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/BinaryToBCD.v",
       "ModuleLine" : 1,
       "ModuleName" : "BinaryToBCD",
       "SubInsts" : [
        {
-        "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/BinaryToBCD.v",
+        "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/BinaryToBCD.v",
         "InstLine" : 14,
         "InstName" : "d1t",
-        "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/dabble.v",
+        "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/dabble.v",
         "ModuleLine" : 1,
         "ModuleName" : "dabble"
        },
        {
-        "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/BinaryToBCD.v",
+        "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/BinaryToBCD.v",
         "InstLine" : 23,
         "InstName" : "d2u",
-        "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/dabble.v",
+        "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/dabble.v",
         "ModuleLine" : 1,
         "ModuleName" : "dabble"
        },
        {
-        "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/BinaryToBCD.v",
+        "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/BinaryToBCD.v",
         "InstLine" : 32,
         "InstName" : "d3v",
-        "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/dabble.v",
+        "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/dabble.v",
         "ModuleLine" : 1,
         "ModuleName" : "dabble"
        },
        {
-        "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/BinaryToBCD.v",
+        "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/BinaryToBCD.v",
         "InstLine" : 41,
         "InstName" : "d4w",
-        "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/dabble.v",
+        "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/dabble.v",
         "ModuleLine" : 1,
         "ModuleName" : "dabble"
        },
        {
-        "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/BinaryToBCD.v",
+        "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/BinaryToBCD.v",
         "InstLine" : 50,
         "InstName" : "d5x",
-        "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/dabble.v",
+        "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/dabble.v",
         "ModuleLine" : 1,
         "ModuleName" : "dabble"
        },
        {
-        "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/BinaryToBCD.v",
+        "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/BinaryToBCD.v",
         "InstLine" : 59,
         "InstName" : "d6y",
-        "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/dabble.v",
+        "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/dabble.v",
         "ModuleLine" : 1,
         "ModuleName" : "dabble"
        },
        {
-        "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/BinaryToBCD.v",
+        "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/BinaryToBCD.v",
         "InstLine" : 68,
         "InstName" : "d7z",
-        "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/dabble.v",
+        "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/dabble.v",
         "ModuleLine" : 1,
         "ModuleName" : "dabble"
        }
@@ -690,10 +695,15 @@
     ]
    },
    {
+<<<<<<< HEAD
     "InstFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/bttn.v",
     "InstLine" : 12,
+=======
+    "InstFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/bttn.v",
+    "InstLine" : 11,
+>>>>>>> 15916a2c534beff06a16239dd4912b40b7f837b6
     "InstName" : "s1",
-    "ModuleFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/selector.v",
+    "ModuleFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/selector.v",
     "ModuleLine" : 1,
     "ModuleName" : "selector"
    }

@@ -2,63 +2,63 @@
  "Device" : "GW2A-18C",
  "Files" : [
   {
-   "Path" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/ALU.v",
+   "Path" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/ALU.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/BinaryToBCD.v",
+   "Path" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/BinaryToBCD.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/addition.v",
+   "Path" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/addition.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/arithmeticUnit.v",
+   "Path" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/arithmeticUnit.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/bttn.v",
+   "Path" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/bttn.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/dabble.v",
+   "Path" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/dabble.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fulladder.v",
+   "Path" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fulladder.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/fullsubtraction.v",
+   "Path" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/fullsubtraction.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfadder.v",
+   "Path" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfadder.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/halfsubtraction.v",
+   "Path" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/halfsubtraction.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/logicUnit.v",
+   "Path" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/logicUnit.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/multiplier.v",
+   "Path" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/multiplier.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/opCode.v",
+   "Path" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/opCode.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/selector.v",
+   "Path" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/selector.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/src/subtraction.v",
+   "Path" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/src/subtraction.v",
    "Type" : "verilog"
   }
  ],
@@ -66,7 +66,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "//wsl.localhost/Debian/home/koray/code/verilog/gowin/bttn/impl/temp/rtl_parser.result",
+ "ResultFile" : "//wsl.localhost/Debian/home/akoray/code/verilog/gowin/bttn/impl/temp/rtl_parser.result",
  "Top" : "",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"
