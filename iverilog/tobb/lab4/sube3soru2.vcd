@@ -1,0 +1,44 @@
+$date
+	Sat Jan 25 03:14:14 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module sube3soru2TB $end
+$var wire 5 ! l2 [4:0] $end
+$var wire 5 " l1 [4:0] $end
+$var wire 5 # D [4:0] $end
+$var reg 10 $ A [9:0] $end
+$var reg 6 % B [5:0] $end
+$scope module uut $end
+$var wire 10 & A [9:0] $end
+$var wire 6 ' B [5:0] $end
+$var reg 5 ( D [4:0] $end
+$var reg 5 ) l1 [4:0] $end
+$var reg 5 * l2 [4:0] $end
+$var integer 32 + hunderedR [31:0] $end
+$var integer 32 , tempD [31:0] $end
+$var integer 32 - tempO [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11010000 -
+b11001 ,
+b1001011000 +
+b1000 *
+b0 )
+b10 (
+b11 '
+b11001 &
+b11 %
+b11001 $
+b10 #
+b0 "
+b1000 !
+$end
+#5
