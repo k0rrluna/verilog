@@ -1,0 +1,104 @@
+$date
+	Sat Jan 25 05:37:22 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module knightRiderTB $end
+$var wire 8 ! leds [7:0] $end
+$var reg 1 " clk $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var reg 1 # direction $end
+$var reg 8 $ leds [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b111 $
+0#
+0"
+b111 !
+$end
+#2
+b1110 !
+b1110 $
+1"
+#4
+0"
+#6
+b11100 !
+b11100 $
+1"
+#8
+0"
+#10
+b111000 !
+b111000 $
+1"
+#12
+0"
+#14
+b1110000 !
+b1110000 $
+1"
+#16
+0"
+#18
+b11100000 !
+b11100000 $
+1"
+#20
+0"
+#22
+b1110000 !
+b1110000 $
+1#
+1"
+#24
+0"
+#26
+b111000 !
+b111000 $
+1"
+#28
+0"
+#30
+b11100 !
+b11100 $
+1"
+#32
+0"
+#34
+b1110 !
+b1110 $
+1"
+#36
+0"
+#38
+b111 !
+b111 $
+1"
+#40
+0"
+#42
+b1110 !
+b1110 $
+0#
+1"
+#44
+0"
+#46
+b11100 !
+b11100 $
+1"
+#48
+0"
+#50
+b111000 !
+b111000 $
+1"
