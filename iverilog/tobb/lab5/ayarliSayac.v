@@ -23,7 +23,7 @@ module ayarliSayac (
         end
         if (clk_divider == 2'b11) begin
             if (en) begin
-            miktar <= sayma_miktari;
+            miktar = sayma_miktari;
             if (sayma_yonu == 1) begin
                 if (sayac + miktar >= 6'b1111_11) begin
                     sayac <= 6'b1111_11;
