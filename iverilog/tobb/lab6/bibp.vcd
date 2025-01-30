@@ -1,0 +1,81 @@
+$date
+	Thu Jan 30 06:13:44 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module bibpTB $end
+$var wire 4 ! sonuc [3:0] $end
+$var reg 9 " A [8:0] $end
+$scope module uut $end
+$var wire 9 # buyruk [8:0] $end
+$var reg 4 $ sonuc [3:0] $end
+$var integer 32 % a [31:0] $end
+$var integer 32 & b [31:0] $end
+$var integer 32 ' c [31:0] $end
+$var integer 32 ( count [31:0] $end
+$var integer 32 ) i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx )
+bx (
+bx '
+bx &
+bx %
+b10 $
+b1001 #
+b1001 "
+b10 !
+$end
+#5
+b11 !
+b11 $
+b1100001 "
+b1100001 #
+#10
+b100 !
+b100 $
+b10100101 "
+b10100101 #
+#15
+b111 !
+b111 $
+b11100011 "
+b11100011 #
+#20
+b1111 !
+b1111 $
+b101 )
+b100111111 "
+b100111111 #
+#25
+b0 !
+b0 $
+b101 )
+b100100001 "
+b100100001 #
+#30
+b1111 !
+b1111 $
+b110 %
+b101100001 "
+b101100001 #
+#35
+b110 &
+b10 (
+b110100001 "
+b110100001 #
+#40
+b0 !
+b0 $
+b110 '
+b10 (
+b111100001 "
+b111100001 #
+#45
