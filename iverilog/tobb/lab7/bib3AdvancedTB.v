@@ -3,7 +3,7 @@ module bib3AdvancedTB();
     reg clk;
     reg basla;
     reg [8:0] buyruk;
-    reg [8:0] memory [15:0];
+    reg [8:0] memory [0:15];
     wire [3:0] sonuc;
     wire bitti;
 
